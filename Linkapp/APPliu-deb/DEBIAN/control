@@ -1,0 +1,14 @@
+Package: liu
+Version: 2019-12-26-1.0
+Section: graphics
+Priority: optional
+Depends: debhelper (>= 9.0~), dh-systemd, pkg-config,
+     qttools5-dev-tools, libqt5x11extras5-dev,
+    libssl-dev, libboost-dev, libmount-dev,
+    libdtkcore-dev,libdtkwidget-dev
+Suggests: fig2ps
+Homepage: https://www.chinauos.com
+Architecture: amd64
+Maintainer: Peng Guo<1138623433@qq.com>
+Provides: desktop-uos
+Description: Remote Desktop Connection for UOS.
